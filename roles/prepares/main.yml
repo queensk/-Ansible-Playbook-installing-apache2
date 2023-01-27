@@ -1,0 +1,11 @@
+---
+- name: "update Packages"
+  become: true
+  become_method: sudo
+  apt:
+    update_catch: yes
+
+- name: "Remove unrequited dependency's"
+  become: true
+  apt:
+    autoremove: yes
