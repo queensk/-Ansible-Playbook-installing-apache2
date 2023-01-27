@@ -1,6 +1,6 @@
 ---
 - name: "hello world "
-  host:
+  host: localhost
   roles:
     - prepares
     - apache
