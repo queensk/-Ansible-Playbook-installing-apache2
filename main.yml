@@ -1,0 +1,6 @@
+---
+- name: "hello world "
+  host:
+  roles:
+    - prepares
+    - apache
